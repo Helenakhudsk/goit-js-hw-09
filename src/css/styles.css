@@ -23,3 +23,58 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.gallery{
+  width: 1128px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    list-style: none;   
+}
+
+.gallery-item{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.simple-lightbox{
+  background-color: rgb(46, 47, 66, 80%)
+}
+.feedback-form {
+  display: block;
+}
+
+
+label {
+  display: block;
+}
+input {
+  width: 360px;
+  height: 40px;
+  display: block;
+  margin-bottom: 8px;
+}
+input:hover {
+  border: 1px solid rgba(0, 0, 0, 1)
+}
+input:active {
+  border: 1px solid rgba(128, 128, 128, 1)
+}
+textarea {
+  width: 360px;
+  height: 80px;
+  display: block;
+  resize: none;
+}
+button {
+  width: 95px;
+  height: 40px;
+  background-color: rgba(78, 117, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 8px 16px 8px 16px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 16px;
+}
+button:hover {
+  background-color: rgba(108, 140, 255, 1);
+}
